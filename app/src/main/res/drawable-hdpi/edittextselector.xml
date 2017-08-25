@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_focused="true">
+		<shape>
+			<gradient android:startColor="@color/white" android:endColor="@color/white"
+				 />
+			<!-- 描边 -->
+			<!--<stroke android:width="0dp" android:color="#ff7200" />-->
+            <stroke android:width="0dp" android:color="@color/white" />
+			<!-- 圆角 -->
+			<corners android:radius="4dp" />
+			<padding android:left="1dp" android:top="1dp" android:right="1dp"
+				android:bottom="1dp" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+			<gradient android:startColor="@color/white" android:endColor="@color/white"
+				 />
+			<!-- 描边 -->
+			<!--<stroke android:width="1dp" android:color="#c3c3c3" />-->
+            <stroke android:width="0dp" android:color="@color/white" />
+			<!-- 圆角 -->
+			<corners android:radius="4dp" />
+			<padding android:left="1dp" android:top="1dp" android:right="1dp"
+				android:bottom="1dp" />
+		</shape>
+	</item>
+</selector>

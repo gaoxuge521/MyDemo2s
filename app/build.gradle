@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.yc.mdemos2.mydemos2"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.android.support:cardview-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    //仿新浪列表滑动播放视频
+
+    //对角切
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'fm.jiecao:jiecaovideoplayer:4.6.3'
+    compile project(':mylibrary')
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile project(':loadingdrawablelibrary')
+    compile project(':nrl')
+    compile project(':androidslanted-textview')
+    compile project(':coloringLoadinglibrary')
+    compile project(':lock9view')
+    compile project(':DatePicker')
+    compile project(':fireworkyPullToRefreshlibrary')
+    compile project(':autoEdittextlibrary')
+    compile project(':DeleteLayoutlibrary')
+    compile project(':dmlib')
+    compile project(':diagonalifylibrary')
+    compile project(':recyclerview-swipe')
+    compile project(':threedlayout')
+}

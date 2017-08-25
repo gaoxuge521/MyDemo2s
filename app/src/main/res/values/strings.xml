@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyDemos2</string>
+
+    <string name="label_account_type_any">Accept any type of accounts</string>
+    <string name="label_account_phone_number">Accept phone number</string>
+    <string name="label_account_email">Accept email address</string>
+
+
+    <!--特效搜索框-->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_alert">提示信息</string>
+    <string name="return1">返回</string>
+    <string name="finish">完成</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <!--特效搜索框-->
+
+
+    <string name="insert_city_name">输入城市名</string>
+    <string name="removeItem">删除</string>
+</resources>

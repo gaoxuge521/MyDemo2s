@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/local_layout"
+	android:gravity="center"
+	android:padding="5dip"
+	android:descendantFocusability="blocksDescendants"
+>
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_weight="1"
+   >
+        
+<TextView
+	android:id="@+id/local_filename"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+/>
+<ProgressBar
+	android:id="@+id/down_progressBar"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	style="@android:style/Widget.ProgressBar.Horizontal"
+	android:layout_margin="5dip" 
+	/>
+	<TextView
+	android:id="@+id/fileSize"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	
+/>
+    
+</LinearLayout>
+    
+<RelativeLayout 
+     android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+<TextView
+	android:id="@+id/percent_text"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	 android:layout_alignParentLeft="true"
+	 android:layout_centerInParent="true"
+	 android:layout_marginLeft="10dip"
+/>
+<Button 
+	android:text="刪除"
+	android:padding="8dip"
+	android:id="@+id/local_delete"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	 android:layout_alignParentRight="true"
+	 android:layout_marginRight="10dip"
+	android:focusable="false"
+	
+/>
+</RelativeLayout>
+</LinearLayout>

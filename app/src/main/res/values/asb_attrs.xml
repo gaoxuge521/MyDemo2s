@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ActionSearchBars">
+        <attr name="actionSearchBarStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ActionSearchBar">
+        <attr name="btnImageCheckOn" format="color|reference" />
+        <attr name="btnImageCheckOff" format="color|reference" />
+        <attr name="tvBackground" format="color|reference" />
+        <attr name="tvImageCheckOn" format="color|reference" />
+        <attr name="tvImageCheckOff" format="color|reference" />
+        <attr name="btnAroundImageOnExpend" format="color|reference" />
+        <attr name="btnAroundImageOffExpend" format="color|reference" />
+        <attr name="tvImagePadding" format="dimension|reference" />
+        <attr name="actionSearchBarTextSize" format="dimension|reference" />
+        <attr name="maxLength" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DatePicker" />
+            <option value="$PROJECT_DIR$/DeleteLayoutlibrary" />
+            <option value="$PROJECT_DIR$/androidslanted-textview" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/autoEdittextlibrary" />
+            <option value="$PROJECT_DIR$/coloringLoadinglibrary" />
+            <option value="$PROJECT_DIR$/diagonalifylibrary" />
+            <option value="$PROJECT_DIR$/dmlib" />
+            <option value="$PROJECT_DIR$/fireworkyPullToRefreshlibrary" />
+            <option value="$PROJECT_DIR$/loadingdrawablelibrary" />
+            <option value="$PROJECT_DIR$/lock9view" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/nrl" />
+            <option value="$PROJECT_DIR$/recyclerview-swipe" />
+            <option value="$PROJECT_DIR$/threedlayout" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DatePicker" />
+            <option value="$PROJECT_DIR$/DeleteLayoutlibrary" />
+            <option value="$PROJECT_DIR$/androidslanted-textview" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/autoEdittextlibrary" />
+            <option value="$PROJECT_DIR$/coloringLoadinglibrary" />
+            <option value="$PROJECT_DIR$/diagonalifylibrary" />
+            <option value="$PROJECT_DIR$/dmlib" />
+            <option value="$PROJECT_DIR$/fireworkyPullToRefreshlibrary" />
+            <option value="$PROJECT_DIR$/loadingdrawablelibrary" />
+            <option value="$PROJECT_DIR$/lock9view" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/nrl" />
+            <option value="$PROJECT_DIR$/recyclerview-swipe" />
+            <option value="$PROJECT_DIR$/threedlayout" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/YellowGreen">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+            <ImageView android:layout_width="fill_parent" android:layout_height="0dp"
+                       android:layout_weight="10"
+                       android:gravity="center"/>
+            <ImageView android:layout_width="fill_parent" android:layout_height="0dp"
+                       android:layout_weight="3"
+                       android:gravity="center"/>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="0dp"
+                          android:layout_weight="2">
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="0dp"
+                          android:layout_weight="2">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="fill_parent"
+                      android:layout_weight="2.5"
+                      android:orientation="vertical">
+            <LinearLayout style="@style/userinfo_line">
+                <TextView style="@style/userinfo_leftside"
+                          android:text="姓        名:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="鲁迅"/>
+                <TextView style="@style/userinfo_leftside"
+                          android:text="曾  用  名:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="周树人"/>
+            </LinearLayout>
+            <LinearLayout style="@style/userinfo_line">
+                <TextView style="@style/userinfo_leftside"
+                          android:text="称        号:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="文学奖"/>
+            </LinearLayout>
+            <LinearLayout style="@style/userinfo_line">
+                <TextView style="@style/userinfo_leftside"
+                          android:text="国        籍:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="中国"/>
+                <TextView style="@style/userinfo_leftside"
+                          android:text="出  身  地:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="河北"/>
+            </LinearLayout>
+            <LinearLayout style="@style/userinfo_line">
+                <TextView style="@style/userinfo_leftside"
+                          android:text="毕业院校:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="耶鲁学院"/>
+            </LinearLayout>
+            <LinearLayout style="@style/userinfo_line">
+                <TextView style="@style/userinfo_leftside"
+                          android:text="名人名言:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="给我个支点我将撬起整个地球！给我个支点我将撬起整个地球！"/>
+            </LinearLayout>
+            <LinearLayout style="@style/userinfo_line"
+                          android:layout_weight="1">
+                <TextView style="@style/userinfo_leftside"
+                          android:text="成        就:"/>
+                <TextView style="@style/userinfo_value"
+                          android:text="发表中国现代文学史上第一篇白话小说《狂人日记》，奠定了新文学的基石，后与《阿Q正传》、《药》、《故乡》等小说名篇一同收入小说集《呐喊》。"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button android:layout_width="40dp" android:layout_height="40dp"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+               android:id="@+id/iv_cancel_btn"
+            android:background="@drawable/dialog_close_btn"/>
+
+</RelativeLayout>

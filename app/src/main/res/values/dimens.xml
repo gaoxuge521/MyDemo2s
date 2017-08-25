@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="img_width">140dp</dimen>
+    <dimen name="img_height">88dp</dimen>
+    <dimen name="text_height">48dp</dimen>
+    <dimen name="text_slanted">28dp</dimen>
+    <dimen name="list_item_height">100dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+    <dimen name="item_margin">10dp</dimen>
+
+    <!--特效搜索框-->
+    <dimen name="tv_size10">11sp</dimen>
+    <dimen name="tv_size16">16sp</dimen>
+    <dimen name="tv_size18">18sp</dimen>
+    <dimen name="tv_size20">20sp</dimen>
+    <dimen name="tv_size22">22sp</dimen>
+    <dimen name="tv_size25">25sp</dimen>
+    <dimen name="tv_size30">30sp</dimen>
+    <dimen name="tv_size40">40sp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <dimen name="padding">8dip</dimen>
+    <dimen name="padding2">2dp</dimen>
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+
+    <dimen name="px_sp_14">6sp</dimen>
+    <dimen name="px_sp_15">6.5sp</dimen>
+    <dimen name="px_sp_16">8sp</dimen>
+    <dimen name="px_sp_17">8.5sp</dimen>
+    <dimen name="px_sp_18">9sp</dimen>
+    <dimen name="px_sp_19">9.5sp</dimen>
+    <dimen name="px_sp_20">10sp</dimen>
+    <dimen name="px_sp_21">10.5sp</dimen>
+    <dimen name="px_sp_22">11sp</dimen>
+    <dimen name="px_sp_23">11.5sp</dimen>
+    <dimen name="px_sp_24">12sp</dimen>
+    <dimen name="px_sp_25">12.5sp</dimen>
+    <dimen name="px_sp_26">13sp</dimen>
+    <dimen name="px_sp_27">13.5sp</dimen>
+    <dimen name="px_sp_28">14sp</dimen>
+    <dimen name="px_sp_29">14.5sp</dimen>
+    <dimen name="px_sp_30">15sp</dimen>
+    <dimen name="px_sp_31">15.5sp</dimen>
+    <dimen name="px_sp_34">17sp</dimen>
+    <dimen name="px_sp_38">19sp</dimen>
+    <dimen name="userinfo_line_height">100dp</dimen>
+    <!--特效搜索框-->
+</resources>

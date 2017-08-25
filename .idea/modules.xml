@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DatePicker/DatePicker.iml" filepath="$PROJECT_DIR$/DatePicker/DatePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeleteLayoutlibrary/DeleteLayoutlibrary.iml" filepath="$PROJECT_DIR$/DeleteLayoutlibrary/DeleteLayoutlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDemos2.iml" filepath="$PROJECT_DIR$/MyDemos2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidslanted-textview/androidslanted-textview.iml" filepath="$PROJECT_DIR$/androidslanted-textview/androidslanted-textview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoEdittextlibrary/autoEdittextlibrary.iml" filepath="$PROJECT_DIR$/autoEdittextlibrary/autoEdittextlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coloringLoadinglibrary/coloringLoadinglibrary.iml" filepath="$PROJECT_DIR$/coloringLoadinglibrary/coloringLoadinglibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diagonalifylibrary/diagonalifylibrary.iml" filepath="$PROJECT_DIR$/diagonalifylibrary/diagonalifylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmlib/dmlib.iml" filepath="$PROJECT_DIR$/dmlib/dmlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fireworkyPullToRefreshlibrary/fireworkyPullToRefreshlibrary.iml" filepath="$PROJECT_DIR$/fireworkyPullToRefreshlibrary/fireworkyPullToRefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadingdrawablelibrary/loadingdrawablelibrary.iml" filepath="$PROJECT_DIR$/loadingdrawablelibrary/loadingdrawablelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lock9view/lock9view.iml" filepath="$PROJECT_DIR$/lock9view/lock9view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nrl/nrl.iml" filepath="$PROJECT_DIR$/nrl/nrl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview-swipe/recyclerview-swipe.iml" filepath="$PROJECT_DIR$/recyclerview-swipe/recyclerview-swipe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threedlayout/threedlayout.iml" filepath="$PROJECT_DIR$/threedlayout/threedlayout.iml" />
+    </modules>
+  </component>
+</project>

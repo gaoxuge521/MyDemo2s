@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionSearchBar">
+        <item name="btnImageCheckOn">@drawable/search_do</item>
+        <item name="btnImageCheckOff">@drawable/search_no_do</item>
+        <item name="tvBackground">@drawable/search_text_expend</item>
+        <item name="tvImageCheckOn">@drawable/arrow_down_on</item>
+        <item name="tvImageCheckOff">@drawable/arrow_down_off</item>
+        <item name="btnAroundImageOnExpend">@drawable/search_circle_expend</item>
+        <item name="btnAroundImageOffExpend">@drawable/search_circle</item>
+        <item name="tvImagePadding">10dp</item>
+        <item name="actionSearchBarTextSize">6sp</item>
+        <item name="maxLength">500dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+{"total":8,"data": [
+        {"columnname":"头条","index":0,"id":"0"},
+        {"columnname":"图片","index":1,"id":"1"},
+        {"columnname":"新闻","index":2,"id":"2"},
+        {"columnname":"明星体育","index":3,"id":"3"},
+        {"columnname":"国外新闻","index":4,"id":"4"},
+        {"columnname":"娱乐","index":5,"id":"5"},
+        {"columnname":"社会","index":6,"id":"6"},
+        {"columnname":"科技","index":7,"id":"7"}]
+}

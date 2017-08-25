@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yc.mdemos2.mydemos2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 摇一摇功能 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 摇一摇功能 -->
+    <!-- 手机震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- 手机震动 -->
+    <application
+        android:name=".fanxinlangvideo.VPApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BaseTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".jiazaidonghua1.JiaZaiDongHua1Activity" />
+        <activity android:name=".jiazaidonghua2.JiaZaiDongHua2Activity" />
+        <activity android:name=".jiazaidonghua2.CircleJumpActivity" />
+        <activity android:name=".jiazaidonghua2.CircleRotateActivity" />
+        <activity android:name=".jiazaidonghua2.SceneryActivity" />
+        <activity android:name=".jiazaidonghua2.AnimalActivity" />
+        <activity android:name=".jiazaidonghua2.GoodsActivity" />
+        <activity android:name=".jiazaidonghua2.ShapeChangeActivity" />
+        <activity android:name=".weixingcaidan.WeiXingCaiDanActivity" />
+        <activity android:name=".choujiangpan.ChouJiangPanActivity" />
+        <activity android:name=".mohuchaxundesousuokuang.MoHuSearchEditextActivity" />
+        <activity android:name=".zhichigezhongkongjiandexiala.EveryViewRefreshActivity" />
+        <activity android:name=".xuanzeshurukuang.view.XuanZeShuRuKuangActivity" />
+        <activity
+            android:name=".qinxiedetextview.QinXieTextViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".jiazaidonghua3.JiaZaiDongHua3Activity" />
+        <activity android:name=".shoushimima.ShouShiMiMAActivity" />
+        <activity android:name=".shijianriqixuanzeqi.ShiJianRiQiXuanZeActivity" />
+        <activity android:name=".xiala.XiaLa1Activity" />
+        <activity android:name=".yuanjiaodialog.AlertDialogSamples" />
+        <activity android:name=".zidongbuquan.ZiDongBuQuanActivity" />
+        <activity android:name=".zuohualizixiaoguo.RecyclerViewActivity" />
+        <activity android:name=".duoxianchengduorenwuhoutaiduandianxiazai.XiaZaiActivity" />
+        <activity android:name=".duoxianchengduorenwuhoutaiduandianxiazai.activity.TableActivity" />
+        <activity android:name=".duoxianchengduorenwuhoutaiduandianxiazai.activity.FinishActivity" />
+        <activity android:name=".duoxianchengduorenwuhoutaiduandianxiazai.activity.CurrentDownActivity" />
+
+        <service android:name=".duoxianchengduorenwuhoutaiduandianxiazai.service.DownloadService" />
+
+        <activity android:name=".tanmu_recycleview.TanMuActivity" />
+        <activity android:name=".zidaijiazaidonghuadewebview.MyWebViewActivity" />
+        <activity android:name=".zidaijiazaidonghuadewebview.Activity_Circle" />
+        <activity android:name=".zidaijiazaidonghuadewebview.Activity_Horizontal" />
+        <activity android:name=".texiaosousuokuang.ui.home.HomeActivity" />
+        <activity android:name=".ganjiwangchoutixiaoguo.GanjiChoutiActivity" />
+        <activity android:name=".yaoyiyao.YaoYiYaoActivity" />
+        <activity android:name=".zuocehuachoutixiaoguo.ZuoCelaActivity" />
+        <activity android:name=".fangzhenfanye.turntest" />
+        <activity android:name=".fangshiguangwangcitylist.ShiGuangCityListActivity" />
+        <activity android:name=".fangwangyelanmuguanli.ui.ColumnEditActivity" />
+        <activity android:name=".fanxinlangvideo.FangXinLangActivity" />
+        <activity android:name=".jiazaidonghua4.JiaZaiDongHua4Activity" />
+        <activity android:name=".duijiaoqie.DuiJiaoQieActivity" />
+        <activity android:name=".recycleviews.MyRecycleViewsActivity"></activity>
+        <activity android:name=".threeDxiaoguo.HomeActivity"></activity>
+        <activity android:name=".threeDxiaoguo.WeatherActivity"></activity>
+        <activity android:name=".threeDxiaoguo.UserCenterActivity"></activity>
+
+
+        <activity
+            android:name=".recycleviews.activity.AllMenuActivity"
+            android:label="两侧菜单" />
+        <activity
+            android:name=".recycleviews.activity.ViewTypeMenuActivity"
+            android:label="ViewType菜单" />
+        <activity
+            android:name=".recycleviews.activity.ViewPagerMenuActivity"
+            android:label="和ViewPager嵌套" />
+        <activity
+            android:name=".recycleviews.activity.RefreshLoadMoreActivity"
+            android:label="下拉刷新，加载更多" />
+        <activity
+            android:name=".recycleviews.activity.ListDragMenuActivity"
+            android:label="拖拽Item条目+菜单(List)" />
+        <activity
+            android:name=".recycleviews.activity.GridDragMenuActivity"
+            android:label="拖拽Item条目+菜单(Grid)" />
+        <activity
+            android:name=".recycleviews.activity.ListDragSwipeActivity"
+            android:label="滑动直接删除+拖拽Item条目" />
+        <activity
+            android:name=".recycleviews.activity.DragSwipeFlagsActivity"
+            android:label="指定Item不能拖拽/滑动删除" />
+        <activity
+            android:name=".recycleviews.activity.VerticalMenuActivity"
+            android:label="竖型菜单" />
+        <activity
+            android:name=".recycleviews.activity.DefineActivity"
+            android:label="用SwipeMenuLayout实现你自己的侧滑" />
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+include ':app'
+//加载动画1
+include ':mylibrary'
+//加载动画2
+include ':loadingdrawablelibrary'
+
+//一款支持任意View的下拉刷新控件
+include ':nrl'
+//倾斜的TextView效果
+include ':androidslanted-textview'
+//加载动画3
+include ':coloringLoadinglibrary'
+//手势密码
+include ':lock9view'
+//手时间日期选择器
+include ':DatePicker'
+//好看的下拉
+include ':fireworkyPullToRefreshlibrary'
+//输入框自动补全
+include ':autoEdittextlibrary'
+//左滑粒子效果
+include ':DeleteLayoutlibrary'
+//基于recycleview的弹幕
+include ':dmlib'
+//一个对角切的效果
+include ':diagonalifylibrary'
+//recycleview各种效果
+include ':recyclerview-swipe'
+//。。。。。
+//一款3D Layout，他可以让任何view拥有3D效果，可以触摸展示3D效果，或者执行翻转动画
+include ':threedlayout'

@@ -1,0 +1,245 @@
+[
+    {
+        "outputFile": "G:\\mywork\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endColumn": 74,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "G:\\mywork\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endColumn": 75,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "G:\\mywork\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 726,
+                    "endColumn": 71,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "G:\\mywork\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 65,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "G:\\mywork\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\allGit\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endColumn": 74,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "D:\\allGit\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endColumn": 75,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "D:\\allGit\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 726,
+                    "endColumn": 71,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "D:\\allGit\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 65,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "D:\\allGit\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\demos\\MyDemos2\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 575,
+                    "endColumn": 74,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "D:\\demos\\MyDemos2\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endColumn": 75,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "D:\\demos\\MyDemos2\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 726,
+                    "endColumn": 71,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "D:\\demos\\MyDemos2\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 65,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "D:\\demos\\MyDemos2\\MyDemos2\\recyclerview-swipe\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            }
+        ]
+    }
+]

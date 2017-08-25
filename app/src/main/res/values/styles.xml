@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#9C27B0</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--下载-->
+    <style name="DownloadVideo_TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="VideoName_TextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Title_TextAppearance">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">@android:color/white</item>  </style>
+    <!--下载-->
+
+
+
+    <!--特效搜索框-->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="main_listview_layout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/listviewitemselector</item>
+        <!-- <item name="android:background">@drawable/listview_background1</item> -->
+    </style>
+
+    <style name="index_value_item_textview">                 <!-- 选择index_item -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginTop">9dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginBottom">9dip</item>
+    </style>
+
+    <style name="main_listview">
+        <!-- <item name="android:listSelector">@drawable/listviewitemselector</item> -->
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+        <item name="android:divider">#cccccc</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:fastScrollEnabled">true</item>
+    </style>
+
+    <style name="ActivityTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/common_bg</item>
+        <item name="android:configChanges">keyboardHidden|orientation|navigation</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+    </style>
+
+    <style name="ActivityAnimation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_middle_stop</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_middle_stop</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="userinfo_leftside">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#ff1EBBC4</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="userinfo_rightside">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#ff1EBBC4</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="userinfo_value">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="userinfo_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <!--特效搜索框-->
+
+
+
+
+
+</resources>

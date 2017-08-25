@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/home_center_head"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/nav" >
+
+
+        <TextView
+            android:id="@+id/home_center_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="栏目"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/app_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="点击添加，拖动排序"
+            android:textColor="@color/column_tv_bg1"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black" />
+
+        <com.yc.mdemos2.mydemos2.fangwangyelanmuguanli.ui.custom.pdgrid.PagedDragDropGrid
+            android:id="@+id/column_edit_grid_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+        </com.yc.mdemos2.mydemos2.fangwangyelanmuguanli.ui.custom.pdgrid.PagedDragDropGrid>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/column_bg"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+
+        <GridView
+            android:id="@+id/column_edit_gv_gvcolumn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" >
+        </GridView>
+    </FrameLayout>
+
+</LinearLayout>
